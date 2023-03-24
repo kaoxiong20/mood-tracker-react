@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# FSD Mood Tracker React Project: Part 1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this weekend you will be creating the full user interface for a mood tracker React application. You will use your knowledge of components and props to create reusable parts in your application.
 
-## Available Scripts
+#### Note:
+Refer back to DJ Days React Demo from class for ideas...
 
-In the project directory, you can run:
+## Instructions
 
-### `npm start`
+In this repository you have a basic pre-made React application that will serve as the foundation to your mood tracking app. You are required to create the following to set up the user interface:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A component folder to hold all your components
+- At least five components to cover the needs of your user interface. How you decide to divide up the parts of your site into components is up to you. Consider our discussion about Atomic Design in class (and check out this resource: https://xd.adobe.com/ideas/process/ui-design/atomic-design-principles-methodology-101/)
+- At least three examples of using props to customize the content of your components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Your app needs to eventually be able to do the following:
+- Provide some sort of input (like a button, dropdown, input field, etc) for a user to mark how they're feeling
+- Provide some sort of input (like a button, dropdown, input field, etc) for a user to mark the day they are feeling a specific mood (can be exact date, day of the week, etc)
+- Have the components to allow a user to view all of their submissions so far in the mood tracker (such as a list showcasing what they've entered previously)
+- Basic elements like a header, etc
 
-### `npm test`
+## Note: you do NOT have to add the functionality in yet!!!
+You just need to focus on creating the user interface
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Recommendations:
+There are no specific styling requirements for this project, however we are at a point in the course where you should be able to decide how much you want to add to the layout. This can be a great example project for your portfolio so design it accordingly.
 
-### `npm run build`
+If you are unsure of where to start you can always start by hardcoding HTML elements in *App.js* to get the general layout of what you will need above. Then you can pull apart the pieces and turn them into components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
+Make sure to fork this project into your own Github account, and clone it down to start working on it!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Commands to Remember:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Starting up your project (after cloning)
 
-### `npm run eject`
+```zsh
+npm i
+npm start
+```
+### Adding the "Styled Component" library
+```zsh
+npm install --save styled-components
+```
+More on Styled Components here: https://styled-components.com/docs/basics#installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Shutting down your project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In your node terminal in VSCode: `control + C`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Saving your work 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```zsh
+git add .
+git commit -m "(Whatever message you want in here)"
+git push
+```
 
-## Learn More
+### More to Come... 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We will be adding more to this project, so please have the base of this project done by this Monday before class. Thanks!
