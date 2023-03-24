@@ -13,7 +13,8 @@ export default Title;
 
 const CoolH1 = styled.h1`
 background-color: #847C7A;
-font-family: Times New Roman;
+font-family: 'Permanent Marker', cursive;
 padding: 16px;
-font-size: 60px;
+font-size: 45px;
+text-transform: uppercase;
 `
