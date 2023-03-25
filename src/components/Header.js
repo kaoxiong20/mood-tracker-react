@@ -16,6 +16,6 @@ const Subtitle = styled.h3`
 font-size: 20px;
 font-family: Tahoma;
 text-transform: uppercase;
-background-color: #D0C8C8;
+background-color: #D0B49F;
 padding: 10px;
 `

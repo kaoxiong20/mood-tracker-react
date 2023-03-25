@@ -24,5 +24,5 @@ const StyledDiv = styled.div`
     width: 40%;
     padding: 10px;
     margin-bottom: 15px;
-    background-color: #CFCFCF;
+    background-color: #CBBAA8;
 `

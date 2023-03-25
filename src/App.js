@@ -14,7 +14,6 @@ function App() {
       <Header/>
       <Moods/>
       <SubmitButton/>
-      <Header/>
     </div>
   );
 }
