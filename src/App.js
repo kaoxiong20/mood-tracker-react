@@ -9,6 +9,7 @@ import SubmitButton from './components/SubmitButton';
 function App() {
   return (
     <div>
+      <img src="/images/pexels-vie-studio-7004950.jpg" alt=""/>
       <Title/>
       <Subtitle/>
       <Header/>
