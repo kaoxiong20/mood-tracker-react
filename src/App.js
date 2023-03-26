@@ -9,7 +9,7 @@ import SubmitButton from './components/SubmitButton';
 function App() {
   return (
     <div>
-      <style>{'body { background-color: #9CA89E; }'}</style>
+       <style>{'body { background-color: #F2F1EF; }'}</style>
       <img src="/images/pexels-vie-studio-7004950.jpg" alt=""/>
       <Title/>
       <Subtitle/>

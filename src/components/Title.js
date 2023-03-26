@@ -12,7 +12,7 @@ function Title() {
 export default Title;
 
 const CoolH1 = styled.h1`
-background-color: #16796F;
+background-color: #FBBC54;
 font-family: Monospace;
 padding: 16px;
 font-size: 45px;
