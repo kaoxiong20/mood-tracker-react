@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function SubmitButton() {
   return (
-    <AwesomeButton>Submit</AwesomeButton>
+    <AwesomeButton>Save My Mood</AwesomeButton>
   );
 }
 

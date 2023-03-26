@@ -1,28 +1,15 @@
-import react from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
-const Moods = () => {
-    return (
-        <>
-        <StyledDiv>
-        <CurrentMood>I am feeling...</CurrentMood>
-        </StyledDiv>
-        </>
-    );
+function Moods() {
+  return (
+    <CurrentMoods type="text" placeholder="I am feeling..." />
+  );
 }
 
 export default Moods;
 
-const CurrentMood = styled.p`
+const CurrentMoods = styled.input`
     font-family: Arial;
-    text-transform: uppercase;
-`
-
-const StyledDiv = styled.div`
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-    padding: 10px;
-    margin-bottom: 15px;
-    background-color: #E8D4C0;
+    padding: 25px;
 `
