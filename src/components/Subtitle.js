@@ -4,8 +4,7 @@ import styled from 'styled-components';
 function Subtitle () {
     return (
         <>
-        <LittleSubtitle>What things <i>out of your control</i> effects your mood?</LittleSubtitle>
-        <LittleSubtitle>What things <i>in your control</i> effects your mood?</LittleSubtitle>
+        <LittleSubtitle>Lorem ipsum.</LittleSubtitle>
         </>
     );
 }

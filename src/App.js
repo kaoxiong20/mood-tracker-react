@@ -13,7 +13,7 @@ function App() {
     <div>
       <Greeting/>
        <style>{'body { background-color: #F2F1EF; }'}</style>
-      <img src="/images/pexels-vie-studio-7004950.jpg" alt=""/>
+      <center><img src="/images/pexels-vie-studio-7004950.jpg" alt=""/></center>
       <Title/>
       <Subtitle/>
       <Header/>
