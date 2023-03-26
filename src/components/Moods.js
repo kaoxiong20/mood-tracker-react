@@ -6,10 +6,10 @@ function Moods() {
     <CurrentMoods type="text" placeholder="I am feeling..." />
   );
 }
-
 export default Moods;
 
 const CurrentMoods = styled.input`
     font-family: Arial;
-    padding: 25px;
+    padding: 12px;
+    box-shadow: 10px 10px 5px grey;
 `
