@@ -14,6 +14,6 @@ export default Subtitle;
 
 const LittleSubtitle = styled.h2`
 font-size: 20px;
-font-family: Lucida;
+font-family:  Trebuchet MS;
 text-align: center;
 `
