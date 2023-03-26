@@ -15,4 +15,5 @@ function Button () {
     cursor: pointer;
     border-radius: 15px;
     align: center;
+    box-shadow: 5px 5px 5px grey;
   `;

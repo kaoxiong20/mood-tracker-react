@@ -5,11 +5,13 @@ import Moods from './components/Moods';
 import Subtitle from './components/Subtitle';
 import SubmitButton from './components/SubmitButton';
 import Button from './components/Button';
+import Greeting from './components/Greeting';
 
 
 function App() {
   return (
     <div>
+      <Greeting/>
        <style>{'body { background-color: #F2F1EF; }'}</style>
       <img src="/images/pexels-vie-studio-7004950.jpg" alt=""/>
       <Title/>

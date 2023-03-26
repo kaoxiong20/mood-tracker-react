@@ -11,5 +11,5 @@ export default Moods;
 const CurrentMoods = styled.input`
     font-family: Arial;
     padding: 12px;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 5px 5px 5px grey;
 `

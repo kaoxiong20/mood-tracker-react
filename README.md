@@ -9,8 +9,8 @@ Refer back to DJ Days React Demo from class for ideas...
 
 In this repository you have a basic pre-made React application that will serve as the foundation to your mood tracking app. You are required to create the following to set up the user interface:
 
-<!-- Done - A component folder to hold all your components  -->
-- At least five components to cover the needs of your user interface. How you decide to divide up the parts of your site into components is up to you. Consider our discussion about Atomic Design in class (and check out this resource: https://xd.adobe.com/ideas/process/ui-design/atomic-design-principles-methodology-101/)
+<!-- **DONE** - A component folder to hold all your components  -->
+<!-- **DONE** - At least five components to cover the needs of your user interface. How you decide to divide up the parts of your site into components is up to you. Consider our discussion about Atomic Design in class (and check out this resource: https://xd.adobe.com/ideas/process/ui-design/atomic-design-principles-methodology-101/) -->
 - At least three examples of using props to customize the content of your components
 
 Your app needs to eventually be able to do the following:
