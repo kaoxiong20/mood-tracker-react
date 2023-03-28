@@ -5,9 +5,9 @@ function Dropdown() {
         <>
 <div class="navbar">
     <a href="#home">Home</a>
-    <a href="#news">About</a>
+    <a href="#about">About</a>
 <div class="dropdown">
-    <button class="dropbtn">Today's Mood
+    <button class="dropbtn">Mood Tracking
       <i class="fa fa-caret-down"></i>
     </button>
 <div class="dropdown-content">

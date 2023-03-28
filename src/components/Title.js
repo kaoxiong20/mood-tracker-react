@@ -13,7 +13,6 @@ export default Title;
 
 const CoolH1 = styled.h1`
 background-color: #FBBC54;
-font-family: Monospace;
 padding: 16px;
 font-size: 45px;
 text-transform: uppercase;

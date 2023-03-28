@@ -10,5 +10,6 @@ const Greeting = (props) => {
   export default Greeting;
 
   const StyledGreeting = styled.h1`
-    text-align: center;  
+    text-align: center;
+    font-size: 60px;
   `

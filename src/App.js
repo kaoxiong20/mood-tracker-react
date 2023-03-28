@@ -18,7 +18,9 @@ function App() {
       <Title/>
       <Subtitle/>
       <Header/>
+      <div>
       <Moods/>
+      </div>
       <SubmitButton/>
       <Button/>
     </div>
