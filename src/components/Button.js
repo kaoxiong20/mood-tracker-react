@@ -13,7 +13,8 @@ function Button () {
     background-color: #EFA710;
     padding: 10px;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 18px;
     align: center;
     box-shadow: 5px 5px 5px grey;
+    width: 400px;
   `;

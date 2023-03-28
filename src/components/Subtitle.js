@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function Subtitle () {
     return (
         <>
-        <LittleSubtitle>Lorem ipsum.</LittleSubtitle>
+        <LittleSubtitle>Don't know if I need this subtitle...</LittleSubtitle>
         </>
     );
 }
