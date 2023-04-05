@@ -7,6 +7,9 @@ import SubmitButton from './components/SubmitButton';
 import Button from './components/Button';
 import Greeting from './components/Greeting';
 import Dropdown from './components/Dropdown';
+import EntryCard from './components/EntryCard';
+import EntryList from './components/EntryList';
+
 
 function App() {
   return (
@@ -23,6 +26,8 @@ function App() {
       </div>
       <SubmitButton/>
       <Button/>
+
+      <EntryList/>
     </div>
   );
 }
