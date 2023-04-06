@@ -1,6 +1,6 @@
 import React from 'react';
-// import styled from 'styled-components';
-import albums from '../Entry-data.js';
+import styled from 'styled-components';
+import entries from './Entry-data.js';
 
 //import components
 import EntryCard from './EntryCard.js';
@@ -8,10 +8,10 @@ import EntryCard from './EntryCard.js';
 function EntryList() {
   return (
     <>
-      {albums.map(album =>
+      {entries.map(entries =>
         <EntryCard 
-          {...album}
-          key={album.id}
+          {...entries}
+          key={entries.id}
         />
       )}
     </>

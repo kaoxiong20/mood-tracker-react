@@ -10,7 +10,6 @@ import Dropdown from './components/Dropdown';
 import EntryCard from './components/EntryCard';
 import EntryList from './components/EntryList';
 
-
 function App() {
   return (
     <div>
@@ -20,13 +19,9 @@ function App() {
       <center><img src="/images/pexels-vie-studio-7004950.jpg" alt=""/></center>
       <Title/>
       <Subtitle/>
-      <Header/>
       <div>
       <Moods/>
       </div>
-      <SubmitButton/>
-      <Button/>
-
       <EntryList/>
     </div>
   );

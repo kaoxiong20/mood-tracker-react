@@ -14,7 +14,9 @@ const AwesomeButton = styled.button`
   padding: 10px;
   cursor: pointer;
   border-radius: 18px;
-  align: center;
+  align-item: center;
   box-shadow: 5px 5px 5px grey;
   width: 150px;
+  margin-top: 10px;
+  text-align: center;
 `;

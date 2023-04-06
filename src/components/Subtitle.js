@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function Subtitle () {
     return (
         <>
-        <LittleSubtitle>Don't know if I need this subtitle...</LittleSubtitle>
+        <LittleSubtitle>Make the changes you want to see!</LittleSubtitle>
         </>
     );
 }

@@ -17,4 +17,5 @@ function Button () {
     align: center;
     box-shadow: 5px 5px 5px grey;
     width: 400px;
+    text-align: center;
   `;
