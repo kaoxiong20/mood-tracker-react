@@ -4,7 +4,7 @@ import Title from './components/Title';
 import Moods from './components/Moods';
 import Subtitle from './components/Subtitle';
 import SubmitButton from './components/SubmitButton';
-import Button from './components/Button';
+import ShareButton from './components/ShareButton';
 import Greeting from './components/Greeting';
 import Dropdown from './components/Dropdown';
 import EntryCard from './components/EntryCard';

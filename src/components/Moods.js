@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Header from './Header';
 import SubmitButton from './SubmitButton';
-import Button from './Button';
+import ShareButton from './ShareButton';
 
 function Moods() {
   return (
@@ -43,7 +43,7 @@ function Moods() {
     <label for="Mood7">Excited</label>
     </MoodDiv>
     <SubmitButton/>
-    <Button/>
+    <ShareButton/>
     </>
   )
 }

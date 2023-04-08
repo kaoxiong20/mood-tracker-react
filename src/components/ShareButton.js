@@ -1,13 +1,17 @@
 import react from 'react';
 import styled from 'styled-components';
 
-function Button () {
-    return (
-      <SaveButton>Share this mood</SaveButton>
-    );
-  }
-  
-  export default Button;
+function ShareButton () {
+    const save = () => {
+      alert("Your Mood Has Been Saved!");
+    }
+
+return (
+  <button onClick={save}>Save This Mood</button>
+);
+}
+
+  export default ShareButton;
   
   const SaveButton = styled.button`
     background-color: #EFA710;
