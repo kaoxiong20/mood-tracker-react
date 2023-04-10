@@ -1,17 +1,17 @@
-import react from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 function ShareButton () {
     const save = () => {
-      alert("Your Mood Has Been Saved!");
+      alert("You've Shared This Mood!");
     }
 
 return (
-  <button onClick={save}>Save This Mood</button>
+  <button onClick={save}>Share This Mood</button>
 );
 }
 
-  export default ShareButton;
+export default ShareButton;
   
   const SaveButton = styled.button`
     background-color: #EFA710;
