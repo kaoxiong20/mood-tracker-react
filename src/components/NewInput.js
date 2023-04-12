@@ -3,6 +3,8 @@ import EntryCard from "./EntryCard";
 import styled from "styled-components";
 import Header from "./Header";
 import ShareButton from "./ShareButton";
+import EmojiPicker from 'emoji-picker-react';
+
 
 function NewInput() {
     // This is to create the template of the objects that will
@@ -81,6 +83,7 @@ function NewInput() {
                 
                 <button type="submit">Submit Your Current Mood</button>
                 <ShareButton/>
+                <EmojiPicker />
             </form>
 
         {messages.map((message, index) => (

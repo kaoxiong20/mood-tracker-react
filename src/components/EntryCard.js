@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const EntryCard = ({date}) => {
+const EntryCard = ({date, time, name, img}) => {
   return (
     <StyledDiv>
-      {/* <EntryDate>{date}</EntryDate> */}
-      <h3>{date}</h3>
-      {/* {/* <img src={img} alt={mood}/>} */}
-      {/* <StyledMood>{mood}</StyledMood> */}
+      <EntryDate>{date}</EntryDate>
+      <h2>{time}</h2>
+      {<img src={img} alt={name}/>}
+      <StyledMood>{name}</StyledMood>
     </StyledDiv>
   );
 }
@@ -32,6 +32,6 @@ const EntryDate = styled.h2`
 `;
 
 const StyledMood = styled.p`
-  color: #76614F;
+  color: #ffffff;
   font-size: 18px;
 `;
