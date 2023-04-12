@@ -1,8 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import Header from './Header';
-import SubmitButton from './SubmitButton';
-import ShareButton from './ShareButton';
 
 function Moods() {
   return (
@@ -42,8 +40,6 @@ function Moods() {
     <CurrentMoods input type="checkbox" id="Mood7" name="Mood7" value="Excited"></CurrentMoods>
     <label for="Mood7">Excited</label>
     </MoodDiv>
-    <SubmitButton/>
-    <ShareButton/>
     </>
   )
 }

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 function Header () {
     return (
       <>
-      <Subtitle>How do you feel today?</Subtitle>
+      <Subtitle>How are you feeling?</Subtitle>
       </>
     );
   }
@@ -19,4 +19,5 @@ padding: 10px;
 text-align: center;
 margin: auto;
 width: 400px;
+text-transform: uppercase;
 `

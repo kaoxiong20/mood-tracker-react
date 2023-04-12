@@ -13,7 +13,7 @@ return (
 
 export default ShareButton;
   
-  const SaveButton = styled.button`
+  const save = styled.button`
     background-color: #EFA710;
     padding: 10px;
     cursor: pointer;

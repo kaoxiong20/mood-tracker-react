@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const EntryCard = ({date, time, mood, img}) => {
+const EntryCard = ({date}) => {
   return (
     <StyledDiv>
-      <EntryDate>{date}</EntryDate>
-      <h3>{time}</h3>
-      <img src={img} alt={mood}/>
-      <StyledMood>{mood}</StyledMood>
+      {/* <EntryDate>{date}</EntryDate> */}
+      <h3>{date}</h3>
+      {/* {/* <img src={img} alt={mood}/>} */}
+      {/* <StyledMood>{mood}</StyledMood> */}
     </StyledDiv>
   );
 }
