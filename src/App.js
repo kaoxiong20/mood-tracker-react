@@ -1,24 +1,23 @@
 import './App.css';
-import Title from './components/Title';
-import Moods from './components/Moods';
-import Greeting from './components/Greeting';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from './components/Home';
 import NavBar from './components/NavBar';
-import EntryList from './components/EntryList';
-import NewInput from './components/NewInput';
+import PastEntries from './components/PastEntries';
+import About from './components/About';
+import Today from './components/Today';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <NavBar/>
-      <Greeting/>
-       <style>{'body { background-color: #F2F1EF; }'}</style>
-      <center><img src="/images/pexels-vie-studio-7004950.jpg" alt=""/></center>
-      <Title/>
-      <div>
-      {/* <Moods/> */}
-      </div>
-      {/* <EntryList/> */}
-      <NewInput/>
+      <Routes>
+          <Route path="home" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="today" element={<Today />} />
+          <Route path="pastentries" element={<PastEntries />} >
+          </Route>
+      </Routes>
     </div>
   );
 }

@@ -1,22 +1,20 @@
 import React from "react";
-import styled from "styled-components";
 
-function Dropdown() {
+function NavBar() {
     return (
         <>
 <div class="navbar">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
+    <a href="home">Home</a>
+    <a href="about">About</a>
 
 <div class="dropdown">
     <button class="dropbtn">
-      Mood Tracking
+      Mood Entries
     </button>
     
 <div class="dropdown-content">
-      <a href="#">Today</a>
-      <a href="#">Yesterday</a>
-      <a href="#">Another Day</a>
+      <a href="today">Today</a>
+      <a href="pastentries">Past Entries</a>
     </div>
   </div>
 </div>
@@ -24,4 +22,4 @@ function Dropdown() {
     )
 }
 
-export default Dropdown;
+export default NavBar;

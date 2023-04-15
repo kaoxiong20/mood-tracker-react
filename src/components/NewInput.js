@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import EntryCard from "./EntryCard";
-import styled from "styled-components";
 import Header from "./Header";
 import ShareButton from "./ShareButton";
 import EmojiPicker from 'emoji-picker-react';
@@ -15,6 +14,9 @@ function NewInput() {
         time: '',
         mood: ''
     });
+
+    const current = new Date();
+    const date = `${current.getDate()} / ${current.getMonth() +1} / ${current.getFullYear()}`;
 
     // this is the array that will hold our messages
     const[messages, setMessages] = useState([]);

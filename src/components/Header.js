@@ -13,11 +13,11 @@ function Header () {
 export default Header;
 
 const Subtitle = styled.h3`
-font-size: 20px;
-background-color: #A2ABCE;
-padding: 10px;
-text-align: center;
-margin: auto;
-width: 400px;
-text-transform: uppercase;
+  font-size: 20px;
+  background-color: #A2ABCE;
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+  margin: auto;
+  width: 400px;
+  text-transform: uppercase;
 `
