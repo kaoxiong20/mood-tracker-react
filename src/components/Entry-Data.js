@@ -1,7 +1,7 @@
 import React from "react";
 import {render} from 'react-dom';
 
-const EntryData = [
+const entries = [
     {
       id: '1',
       date: 'Monday',
@@ -39,4 +39,4 @@ const EntryData = [
     }
   ];
   
-  export default EntryData;
+  export default entries;
