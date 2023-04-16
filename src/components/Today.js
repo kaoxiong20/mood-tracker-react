@@ -3,7 +3,8 @@ import NewInput from './NewInput';
 import styled from 'styled-components';
 
 const Today = () => (
-  <div className="main-content">
+  <>
+    <MainContent>
     <br/>
     <StyledH2>Today's Mood Entries</StyledH2>
     <StyledP>Enter your entries for today's mood. Think about: Who? What? Where? Why? Where do these feelings stem from?
@@ -13,8 +14,11 @@ const Today = () => (
     <StyledP>
     So let's talk about it...
     </StyledP>
+    
     <NewInput />
-  </div>
+    
+    </MainContent>
+  </>
 );
 
 export default Today;
@@ -35,4 +39,12 @@ const StyledP = styled.p`
     text-align: center;
     margin: auto;
     width: 400px;
+`
+
+const MainContent = styled.div`
+  font-size: 20px;
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+  margin: auto;
+  width: 400px;
 `

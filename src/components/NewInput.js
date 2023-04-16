@@ -2,8 +2,8 @@ import React, {useState} from "react";
 import EntryCard from "./EntryCard";
 import Header from "./Header";
 import ShareButton from "./ShareButton";
-import EmojiPicker from 'emoji-picker-react';
 import styled from "styled-components";
+import EmojiPicker from "./EmojiPicker";
 
 
 function NewInput() {
@@ -86,7 +86,7 @@ function NewInput() {
                 
                 <button type="submit">Submit Your Current Mood</button>
                 <ShareButton/>
-                <EmojiPicker />
+                <EmojiPicker/>
             </StyledForm>
 
         {messages.map((message, index) => (
