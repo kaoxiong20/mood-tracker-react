@@ -8,7 +8,7 @@ const Home = () => {
     <HomeDiv>
       <Title>Mood Tracker</Title>
       <style>{'body { background-color: #EAEAEA; }'}</style>
-      <center><img src="/images/pexels-vie-studio-7004950.jpg" alt=""/></center>
+      <center><img src="/images/pexels-vie-studio-7004950.jpg" alt="word scrambled"/></center>
       <WelcomeMessage>When you keep track of your mood, you can keep
         <br/> track of your patterns, behaviors, and feelings.</WelcomeMessage>
       <SmallMessage>Track your mood with this simple <em>Mood Tracking</em> system.</SmallMessage>

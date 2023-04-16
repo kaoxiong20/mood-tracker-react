@@ -35,7 +35,7 @@ function NewInput() {
         event.preventDefault();
         // finishing up packaging the new message for the array
         const newMessage = {
-            date: messageInfo.date,
+            date: messageInfo.getDate,
             time: messageInfo.time,
             mood: messageInfo.mood,
             img: messageInfo.img,
@@ -55,45 +55,43 @@ function NewInput() {
         })
     };
 
-    return(
-        <>
-            <Header/>
-            <StyledForm onSubmit={handleSubmit}>
-                <label>Date & Time: </label>
+return(
+    <>
+    <Header/>
+    <StyledForm onSubmit={handleSubmit}>
+        <label>Date & Time: </label>
+            <input
+                type="date"
+                name="day"
+                value={messageInfo.getDate}
+                onChange={handleInputChange}
+            />
 
-                <input
-                    type="date"
-                    name="day"
-                    value={messageInfo.day}
-                    onChange={handleInputChange}
-                />
+            <input
+                type="time"
+                name="time"
+                value={messageInfo.time}
+                onChange={handleInputChange}
+            />
 
-                <input
-                    type="time"
-                    name="date"
-                    value={messageInfo.date}
-                    onChange={handleInputChange}
-                />
+        <br/>
 
-                <br/>
-
-                <label>Mood: </label>
-                    <input
-                    type="text"
-                    name="mood"
-                    value={messageInfo.mood}
-                    onChange={handleInputChange}
-                />
+            <label>Mood: </label>
+            <input
+                type="text"
+                name="mood"
+                value={messageInfo.mood}
+                onChange={handleInputChange}
+            />
                 
+        <EmojiPicker/>
                 <br/>
-                
+                <br/>
+                <br/>
+                <br/>
                 <button type="submit">Submit Your Current Mood</button>
-                <ShareButton/>
-            </StyledForm>
-
-            <div>
-                <EmojiPicker/>
-            </div>
+        <ShareButton/>
+    </StyledForm>
 
         {messages.map((message, index) => (
             <div key={index}>
@@ -102,13 +100,12 @@ function NewInput() {
                     date={message.date}
                     time={message.time}
                     img={message.img}
-                />
-            </div>
-        ))}
-        </>
-
+            />
+        </div>
+        
+    ))}
+    </>
     );
-
 }
 
 export default NewInput;
@@ -117,4 +114,5 @@ const StyledForm = styled.form`
     margin: auto;
     display: block;
     text-align: center;
+    padding: 10px;
 `

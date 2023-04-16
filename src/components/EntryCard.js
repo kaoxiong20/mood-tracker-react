@@ -22,7 +22,7 @@ const StyledDiv = styled.div`
   width: 400px;
   text-align: center;
   margin: 40px auto;
-  padding: 50px 20px 50px 20px;
+  padding: 20px;
   background-color: #A2ABCE;
 `;
 
