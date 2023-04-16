@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <HomeDiv>
       <Title>Mood Tracker</Title>
-      <style>{'body { background-color: #EDE7DC; }'}</style>
+      <style>{'body { background-color: #EAEAEA; }'}</style>
       <center><img src="/images/pexels-vie-studio-7004950.jpg" alt=""/></center>
       <WelcomeMessage>When you keep track of your mood, you can keep
         <br/> track of your patterns, behaviors, and feelings.</WelcomeMessage>

@@ -13,7 +13,8 @@ function NewInput() {
     const [messageInfo, setMessageInfo] = useState({
         date: '',
         time: '',
-        mood: ''
+        mood: '',
+        img: '',
     });
 
     const current = new Date();
@@ -37,6 +38,7 @@ function NewInput() {
             date: messageInfo.date,
             time: messageInfo.time,
             mood: messageInfo.mood,
+            img: messageInfo.img,
         };
         console.log(newMessage);
 
@@ -49,6 +51,7 @@ function NewInput() {
             date: '',
             time: '',
             mood: '',
+            img: '',
         })
     };
 
@@ -86,15 +89,19 @@ function NewInput() {
                 
                 <button type="submit">Submit Your Current Mood</button>
                 <ShareButton/>
-                <EmojiPicker/>
             </StyledForm>
+
+            <div>
+                <EmojiPicker/>
+            </div>
 
         {messages.map((message, index) => (
             <div key={index}>
                 <EntryCard
-                name={message.mood}
-                date={message.date}
-                time={message.time}
+                    mood={message.mood}
+                    date={message.date}
+                    time={message.time}
+                    img={message.img}
                 />
             </div>
         ))}
@@ -108,4 +115,6 @@ export default NewInput;
 
 const StyledForm = styled.form`
     margin: auto;
+    display: block;
+    text-align: center;
 `

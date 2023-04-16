@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #EAEAEA;
 }
 
 code {
@@ -17,19 +18,20 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 50px;
+  height: 30px;
+  width: 450px;
 }
 .selected-emoji {
-  font-size: 30px;
+  font-size: 20px;
 }
 .emoji-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: #DCD2CC;
   padding: 10px;
-  font-size: 30px;
-  margin-top: 15px;
+  font-size: 25px;
+  margin-top: 10px;
 }
 .emoji-item {
   padding: 5px;
