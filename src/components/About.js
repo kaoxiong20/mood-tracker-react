@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./Header";
 import styled from "styled-components";
+import StuckTitle from '../components/StuckTitle';
 
 function About() {
     return (
     <>
         <div className="main-content">
         <br/>
+            <StuckTitle/>
             <Header/>
             <Info>Write about mood tracking here. Write about mood tracking here. Write about mood tracking here.</Info>
         </div>

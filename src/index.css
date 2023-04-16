@@ -12,28 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-/* emoji picker */
-.emoji-picker {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 30px;
-  width: 450px;
-}
-.selected-emoji {
-  font-size: 20px;
-}
-.emoji-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: #DCD2CC;
-  padding: 10px;
-  font-size: 25px;
-  margin-top: 10px;
-}
-.emoji-item {
-  padding: 5px;
-  cursor: pointer;
-}

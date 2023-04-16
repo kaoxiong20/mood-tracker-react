@@ -1,9 +1,11 @@
 import React from 'react';
 import NewInput from './NewInput';
 import styled from 'styled-components';
+import StuckTitle from './StuckTitle';
 
 const Today = () => (
   <>
+  <StuckTitle/>
     <MainContent>
     <br/>
     <StyledH2>Today's Mood Entries</StyledH2>

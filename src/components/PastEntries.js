@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import EntryList from './EntryList';
+import StuckTitle from './StuckTitle';
+
 
 const PastEntries = () => (
   <div className="main-content">
-    <br/>
+    <StuckTitle/>
     <StyledH2>Past Mood Entries</StyledH2>
     <StyledP>This shows your past entries. Take a look at your past entries. Past entries. Write abut past entries here.
     </StyledP>

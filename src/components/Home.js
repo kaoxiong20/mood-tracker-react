@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import StuckTitle from '../components/StuckTitle';
 
 
 const Home = () => {
 
   return (
     <HomeDiv>
-      <Title>Mood Tracker</Title>
+      <StuckTitle/>
       <style>{'body { background-color: #EAEAEA; }'}</style>
       <center><img src="/images/pexels-vie-studio-7004950.jpg" alt="word scrambled"/></center>
       <WelcomeMessage>When you keep track of your mood, you can keep
@@ -22,10 +23,6 @@ export default Home;
 
 const HomeDiv = styled.div`
   text-align: center;
-`;
-
-const Title = styled.h1`
-  font-size: 40px;
 `;
 
 const WelcomeMessage = styled.h2`
