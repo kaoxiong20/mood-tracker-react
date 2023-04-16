@@ -3,6 +3,7 @@ import EntryCard from "./EntryCard";
 import Header from "./Header";
 import ShareButton from "./ShareButton";
 import EmojiPicker from 'emoji-picker-react';
+import styled from "styled-components";
 
 
 function NewInput() {
@@ -54,7 +55,7 @@ function NewInput() {
     return(
         <>
             <Header/>
-            <form onSubmit={handleSubmit}>
+            <StyledForm onSubmit={handleSubmit}>
                 <label>Date & Time: </label>
 
                 <input
@@ -86,7 +87,7 @@ function NewInput() {
                 <button type="submit">Submit Your Current Mood</button>
                 <ShareButton/>
                 <EmojiPicker />
-            </form>
+            </StyledForm>
 
         {messages.map((message, index) => (
             <div key={index}>
@@ -104,3 +105,7 @@ function NewInput() {
 }
 
 export default NewInput;
+
+const StyledForm = styled.form`
+    margin: auto;
+`

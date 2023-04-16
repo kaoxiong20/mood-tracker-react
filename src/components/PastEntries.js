@@ -6,7 +6,9 @@ const PastEntries = () => (
   <div className="main-content">
     <br/>
     <StyledH2>Past Mood Entries</StyledH2>
-    <StyledP>This shows your past entries.</StyledP>
+    <StyledP>This shows your past entries. Take a look at your past entries. Past entries. Write abut past entries here.
+
+    </StyledP>
     <EntryList />
   </div>
 );

@@ -6,9 +6,13 @@ const Today = () => (
   <div className="main-content">
     <br/>
     <StyledH2>Today's Mood Entries</StyledH2>
-    <StyledP>Enter your entries for today's mood.</StyledP>
-    <StyledP>Think about: Who? What? Where? Why?</StyledP>
-    <StyledP>Where does this stem from?</StyledP>
+    <StyledP>Enter your entries for today's mood. Think about: Who? What? Where? Why? Where do these feelings stem from?
+      What can you do to change the way you are feeling? How is reflecting on your mood benefitting your overall health?
+    </StyledP>
+
+    <StyledP>
+    So let's talk about it...
+    </StyledP>
     <NewInput />
   </div>
 );
